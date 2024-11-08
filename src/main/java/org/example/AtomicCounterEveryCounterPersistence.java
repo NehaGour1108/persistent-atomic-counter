@@ -3,7 +3,7 @@ package org.example;
 import java.io.*;
 import java.util.concurrent.atomic.AtomicInteger;
 
-public class Main {
+public class AtomicCounterEveryCounterPersistence {
     private static final AtomicInteger counter = new AtomicInteger();
     private static final String COUNTER_FILE = "counter.txt";
 
